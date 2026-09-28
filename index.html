@@ -1,16 +1,19 @@
 <!doctype html>
 
-<html lang="en">
+<html lang="zh-Hans">
 <head>
   <meta charset="utf-8">
 
-  <title>Typographic Calendar</title>
-  <meta name="description" content="Typographic Calendar">
-  <meta name="author" content="Yuin Chien">
+  <title>CinaFonts 字历 · 开源中文字体展示</title>
+  <meta name="description" content="CinaFonts 字历 — 海内集团 CinaGroup 推出的开源中文字体展示与试用作品">
+  <meta name="author" content="CinaGroup 海内集团">
 
-  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <link rel="icon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+
+  <script src="third_party/jquery-3.2.1.min.js"></script>
+  <script src="third_party/webfont-1.6.26.js"></script>
 
   <link rel="stylesheet" type="text/css" href="third_party/jquery.pagepiling.css" />
   <link rel="stylesheet" href="styles.css">
@@ -23,7 +26,11 @@
 
 <body class="loading" lang="tc">
 
-  <div id="project-title" class="load-font"></div>
+  <div id="project-title" class="load-font">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 168 48" width="168" height="48" role="img" aria-label="CinaFonts">
+      <text x="2" y="33" fill="#123B56" font-family="Geist, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="26" font-weight="400" letter-spacing="1">CinaFonts</text>
+    </svg>
+  </div>
   <div id="headerbar" class="load-font">
     <div class="bordered-button button" id="button-use"><div class="cn">使用字體</div><div class="hover">Use font</div></div>
     <div class="lang button" content="tc"><div class="cn">繁</div><div class="hover">TC</div></div>
@@ -39,7 +46,7 @@
     </div>
   </div>
 
-  <a id="badge" class="load-font" href="https://fonts.google.com/" target="_blank"></a>
+  <a id="badge" class="load-font" href="https://cinagroup.com/" target="_blank" title="海内集团 CinaGroup"></a>
   <div id="designer-info" class="load-font text-vert"></div>
 
   <div id="templates-about" class="templates section-about weight-700">
@@ -47,19 +54,19 @@
       <div class="flexbox row centered-hv">
         <div class="flexbox column column-1">
           <div class="chinese-text text-vert traditional">
-            <span>谷歌字庫擁有超過八百多個開源字型，</span><br><span>涵蓋一百三十五種以上的語言。</span><br><span>中文字體的設計與開發充滿了挑戰性，</span><br><span>除了需要創作大量的字符，</span><br><span>網頁字體也需要高端的技術來下載檔案。</span><br><span>此作品以開源的網頁字體來創作日曆，</span><br><span>希望在推動技術研發的同時，</span><br><span>也邀清設計人與工程師共襄盛舉，</span><br><span>一起試用預先發佈的中文字體。</span>
+            <span>CinaFonts 是海内集团推出的开源中文字体展示作品，</span><br><span>收录思源黑体、思源宋体等多款开源字型。</span><br><span>中文字体的设计与开发充满了挑战性，</span><br><span>除了需要创作大量的字符，</span><br><span>网页字体也需要高端的下载技术。</span><br><span>此作品以开源的网页字体来创作字历，</span><br><span>希望在推动技术研发的同时，</span><br><span>也邀请设计师与工程师共襄盛举，</span><br><span>一起试用与鉴赏开源中文字体。</span>
           </div>
           <div class="chinese-text text-vert simplified">
-            <span>谷歌字库拥有超过八百多个开源字体，</span><br><span>涵盖一百三十五种以上的语言。</span><br><span>中文字体的设计与开发充满了挑战性，</span><br><span>除了需要创作大量的字符，</span><br><span>网页字体也需要高端的技术来下载档案。</span><br><span>此作品以开源的网页字体来创作日历，</span><br><span>希望在推动技术研发的同时，</span><br><span>也邀清设计人与工程师共襄盛举，</span><br><span>一起试用预先发布的中文字体。</span>
+            <span>CinaFonts 是海内集团推出的开源中文字体展示作品，</span><br><span>收录思源黑体、思源宋体等多款开源字体。</span><br><span>中文字体的设计与开发充满了挑战性，</span><br><span>除了需要创作大量的字符，</span><br><span>网页字体也需要高端的下载技术。</span><br><span>此作品以开源的网页字体来创作字历，</span><br><span>希望在推动技术研发的同时，</span><br><span>也邀请设计师与工程师共襄盛举，</span><br><span>一起试用与鉴赏开源中文字体。</span>
           </div>
           <div class="flexbox column">
-            <div class="label-earlyaccess traditional">預先<br>發佈</div>
-            <div class="label-earlyaccess simplified">预先<br>发布</div>
+            <div class="label-earlyaccess traditional">開源<br>字體</div>
+            <div class="label-earlyaccess simplified">开源<br>字体</div>
           </div>
         </div>
         <div class="flexbox column column-2" style="align-items:center;">
           <div class="text-vert label-font">字型</div>
-          <div class="weight-700 eng-block">Google Fonts is a library of over 800 libre licensed fonts and serves over 135 languages worldwide. Chinese typeface design and font development presents many challenges, from the time needed to create the huge character set to the web infrastructure required to serve the massive font files. This project Typographic Calendar is designed and created with libre web fonts to showcase Chinese typography. We hope to invite designers and developers to experiment with the fonts on Early Access as the standards and technology continue to develop.</div>
+          <div class="weight-700 eng-block">CinaFonts is an open-source Chinese typography showcase by CinaGroup (海内集团), presenting libre web fonts including Noto Sans CJK, Noto Serif CJK and more. Chinese typeface design and font development presents many challenges, from the time needed to create the huge character set to the web infrastructure required to serve the massive font files. This typographic calendar is designed and created with libre web fonts to showcase Chinese typography. We hope to invite designers and developers to experiment with these fonts as the standards and technology continue to develop.</div>
         </div>
       </div>
     </div>

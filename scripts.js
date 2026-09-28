@@ -35,7 +35,7 @@ var BG = {
 };
 
 var designerByFont = {
-  'About': {'label':'Project by Yuin Chien', 'link':'http://www.yuinchien.com/'},
+  'About': {'label':'CinaGroup · 海内集团', 'link':'https://cinagroup.com/'},
   'NotoSans': {'label':'Google', 'link':'https://www.google.com/get/noto/'},
   'NotoSerif': {'label':'Google / Adobe', 'link':'https://www.google.com/get/noto/'},
   'HanaMin': {'label':'GlyphWiki', 'link':'http://fonts.jp/hanazono/'},

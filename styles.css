@@ -1,6 +1,14 @@
 @import url(https://fonts.googleapis.com/earlyaccess/notosansscsliced.css);
 @import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
 
+/* CinaGroup brand typeface — Geist (OFL 1.1) */
+@font-face {
+  font-family: 'Geist';
+  src: url('fonts/geist/Geist-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
 /* Noto Serif TC */
 @font-face {
   font-family: 'Noto Serif TC';
@@ -152,7 +160,7 @@ body[lang='sc'] .traditional {
     line-height: 1em;
   }
   #section-setofont .group-term {
-    border: 8px solid #222;
+    border: 8px solid #123B56;
     padding: 16px;
     font-size: 4vh;
     border-radius: 2px;
@@ -171,7 +179,7 @@ body[lang='sc'] .traditional {
     margin: 0 2.8vh 0vh 0;
   }
   #section-setofont .label-month-date {
-    border: 4px solid #222;
+    border: 4px solid #123B56;
     border-radius: 20px;
     letter-spacing: .1em;
     padding: 1.6vh 1.6vh;
@@ -211,9 +219,9 @@ body[lang='sc'] .traditional {
     white-space: nowrap;
   }
   #section-setofont .label-lunardate {
-    background: #222;
+    background: #123B56;
     color: #FFDFB9;
-    outline: 2px solid #222;
+    outline: 2px solid #123B56;
     outline-offset: 4px;
     margin: 4vh 0px 0 0;
     padding: 2vh;
@@ -223,7 +231,7 @@ body[lang='sc'] .traditional {
     margin: 0 auto 2.6vh auto;
   }
   #section-setofont .group-ganzhiyear {
-    background: #222;
+    background: #123B56;
     padding: 8px;
     position: relative;
     margin: -7vh 3.4vh 0vh 0;
@@ -233,14 +241,14 @@ body[lang='sc'] .traditional {
     background: #FFDFB9;
     padding: 3.4vh 2vh 2.4vh 2vh;
     border-radius: 8px;
-    border: 0px solid #222;
+    border: 0px solid #123B56;
   }
   #section-setofont .group-ganzhimonth {
     font-size: 2.2vh;
     position: relative;
     padding: 8px;
     border-radius: 50%;
-    border: 1px solid #222;
+    border: 1px solid #123B56;
     margin: 0.6vh 3.2vh 0vh 0;
   }
   #section-setofont .ganzhi-month {
@@ -271,7 +279,7 @@ body[lang='sc'] .traditional {
     text-indent: 1vh;
   }
   #section-setofont .group-ganzhiday .wrapper-bg {
-    background: #222;
+    background: #123B56;
     -webkit-transform: rotate(45deg);
     -webkit-transform-origin: 50% 50%;
     position: absolute;
@@ -298,13 +306,13 @@ body[lang='sc'] .traditional {
     bottom: 3.4vh;
   }
   #section-setofont .group-ganzhimonth .wrapper-bg {
-    background: #222;
+    background: #123B56;
     color: #FFDFB9;
     border-radius: 50%;
   }
   #section-setofont .label-zodiac {
     position: relative;
-    border: 8px solid #222;
+    border: 8px solid #123B56;
     width: 20vh;
     height: 20vh;
     border-radius: 10vh;
@@ -367,7 +375,7 @@ body[lang='sc'] .traditional {
   }
   #section-genjyuugothic .number-date {
     font-size: 104vh;
-    -webkit-text-stroke: 2px #222;
+    -webkit-text-stroke: 2px #123B56;
     -webkit-text-fill-color: transparent;
     z-index: 100;
   }
@@ -534,7 +542,7 @@ body[lang='sc'] .traditional {
     border-radius: 8vh;
     padding: .8vh;
     font-size: 4vh;
-    border: 2px solid #222;
+    border: 2px solid #123B56;
   }
   #section-notoserif .label-year-month {
     position: relative;
@@ -680,7 +688,7 @@ body[lang='sc'] .traditional {
 
 .vline {
   border-left-style: solid;
-  border-left-color: #222;
+  border-left-color: #123B56;
   margin: 0 8px;
   border-left-width: 1px;
 }
@@ -694,7 +702,7 @@ body[lang='sc'] .traditional {
 .hline {
   width: 100%;
   border-top-style: solid;
-  border-top-color: #222;
+  border-top-color: #123B56;
   margin: 8px 0;
   border-top-width: 1px;
 }
@@ -807,7 +815,7 @@ body[lang='sc'] .traditional {
 }
 
 a {
-  color: #222;
+  color: #123B56;
   opacity: .7;
   text-decoration: none;
   -webkit-transition: .2s opacity;
@@ -818,7 +826,7 @@ a:hover {
 
 .hline-4 {
   height: 4px;
-  background: #222;
+  background: #123B56;
 }
 
 .center {
@@ -830,13 +838,13 @@ body {
   font-size: 15px;
   line-height: 26px;
   font-family: 'Noto Serif TC', sans-serif;
-  color: #222;
+  color: #123B56;
 }
 
 pre {
   /* white-space: pre-wrap; */
   background: rgba(0,0,0,.1);
-  font-family: 'Roboto Mono', monospace;
+  font-family: Consolas, 'Courier New', monospace;
   padding: 10px 12px;
   line-height: 1.6em !important;
 }
@@ -907,7 +915,7 @@ body.use-font .section .wrapper-use-font {
   background-size: cover;
   width: 24px;
   height: 24px;
-  color: #222;
+  color: #123B56;
 }
 
 #project-title {
@@ -915,11 +923,8 @@ body.use-font .section .wrapper-use-font {
   top: 23px;
   left: 24px;
   z-index: 10000;
-  width: 148px;
+  width: 168px;
   height: 48px;
-  background-image: url(images/project-title.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
 }
 
 .font-title {
@@ -1011,10 +1016,11 @@ body.use-font .section .wrapper-use-font {
   right: 24px;
   bottom: 18px;
   z-index: 10000;
-  background-image: url(images/badge.svg);
-  width: 136px;
-  height: 42px;
+  background-image: url(images/brand/cinagroup-horizontal.png);
+  width: 156px;
+  height: 54px;
   background-repeat: no-repeat;
+  background-size: contain;
   opacity: .5;
 }
 #badge:hover {
@@ -1083,7 +1089,7 @@ body.use-font .section .wrapper-use-font {
   line-height: 1.6em;
   font-size: 2.6vh;
   letter-spacing: .125em;
-  border-left: 1px solid #222;
+  border-left: 1px solid #123B56;
   white-space: nowrap;
 }
 .eng-block {
